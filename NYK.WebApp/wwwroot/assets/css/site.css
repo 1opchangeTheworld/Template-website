@@ -41,7 +41,7 @@ body {
     min-width: 70px;
     z-index: 1000;
     transition: all .25s ease-in-out;
-    background-color: #641E16;
+    background-color: #1A5276;
     display: flex;
     flex-direction: column;
 }
@@ -146,4 +146,20 @@ a.sidebar-link:hover {
     justify-content: center;
     align-items: center;
     margin: auto;
+}
+
+.bg-login {
+    background: #000046; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #1CB5E0, #000046); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+}
+
+.full-page {
+    height: 100vh;
+    align-items: center;
+    display: flex;
+    justify-content: center;
 }

@@ -2,33 +2,32 @@
     Layout = "_LayoutDefault";
 }
 
-<div>
-    <form method="post">
-        <div class="layout-login">
-            <div class="col-md-4 px-5 card py-5 mb-2 mt-4 rounded-2">
+<form method="post">
+        <div class="row full-page">
+            <div class="justify-content-center col-md-4 px-5 card py-5 mb-2 mt-4">
                 <div class="text-center">
-                    <h1 class="font-purple">Sign In</h1>
-                    <h5>DEMO SYSTEM</h5>
+                    <h1 class="font-purple">Login</h1>
+                    <h6>Demo system</h6>
+                    <hr />
                 </div>
                 <div class="form-floating mb-1">
                     <input type="text" class="form-control" placeholder="Employee ID">
-                    <label><i class="fa-solid fa-user pe-2"></i>Username</label>
+                    <label><i class="lni lni-user pe-2"></i>Username</label>
                     <span class="text-danger"></span>
                 </div>
                 <div class="form-floating mb-1">
                     <input type="password" class="form-control " placeholder="Password">
-                    <label><i class="fa-solid fa-key pe-2"></i>Password</label>
+                    <label><i class="lni lni-lock-alt pe-2"></i>Password</label>
                     <span class="text-danger"></span>
                 </div>
                 <div class="text-center">
                     <div class="mb-2">
-                        <a asp-area="Main" asp-controller="Account" asp-action="ForgotPassword" class="text-secondary-emphasis mb-1"><i class="fa-solid fa-lock pe-2"></i>forgot password!</a>
+                        <a asp-area="Main" asp-controller="Account" asp-action="ForgotPassword" class="mb-1"><i class="fa-solid fa-lock pe-2"></i>forgot password!</a>
                     </div>
-                    <div data-aos="fade-up" data-aos-duration="1000">
-                        <button type="submit" class="button-lg  text-decoration-none w-100 rounded-2 p-2 fs-5">Submit</button>
+                    <div>
+                        <button type="submit" class="btn btn-primary w-100 p-2 fs-5">Confirm</button>
                     </div>
                 </div>
             </div>
         </div>
-    </form>
-</div>
+</form>
